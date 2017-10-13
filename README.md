@@ -1,4 +1,4 @@
-# _solar Age Calculator_
+# _Solar Age Calculator_
 
 #### _An application to track your age_
 
