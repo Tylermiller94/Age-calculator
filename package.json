@@ -4,7 +4,7 @@
   "description": "#### _An application to track your age_",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "karma start karma.conf.js"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",

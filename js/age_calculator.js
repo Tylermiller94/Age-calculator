@@ -1,9 +1,15 @@
-export class AgeCalculator {
+class AgeCalculator {
   constructor(age){
     this.age = age
   }
 
- age(value) {
-  return age;
+ ageSeconds(age) {
+  return age * 31536000;
  }
 }
+
+
+
+
+
+exports.ageModule = AgeCalculator;

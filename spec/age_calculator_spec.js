@@ -1,5 +1,6 @@
-import {AgeCalculator} from './../js/age_calculater.js';
+// import {AgeCalculator} from './../js/age_calculator.js';
 
+var AgeCalculator = require('./../js/age_calculator.js').ageModule;
 
 describe('AgeCalculator', function(){
   let Calculator;
@@ -8,7 +9,7 @@ describe('AgeCalculator', function(){
   });
 
 
-  it("should return age in years", function(){
-    expect(Calculator.age).toEqual(22)
+  it("should return age in seconds", function(){
+    expect(Calculator.ageSeconds(22)).toEqual(693792000)
   });
 });
