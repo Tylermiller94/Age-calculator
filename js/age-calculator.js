@@ -34,4 +34,4 @@ class AgeCalculator {
 
 //
 // for testing jasmine
-// exports.ageModule = AgeCalculator;
+exports.ageModule = AgeCalculator;
