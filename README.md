@@ -30,6 +30,10 @@ This web application allows users to enter their age and it will convert into se
 * Allow users to find out how many years they have left on each planet. Calculate this using gender, ethinicity and other different measures.
 * If a user has already surpassed the average life expectancy, your application should account for (and test) this possible outcome as well.
 
+## Future Functionality
+* allow users to input their ethnicity, changing their expected life span.
+* allow users to input their physical activity on a measured scale of 1-5, changing their expected life span.
+* allow users to input their marital status as well as if they have any children, changing their expected life span.
 
 ## Setup/Installation Requirements
 

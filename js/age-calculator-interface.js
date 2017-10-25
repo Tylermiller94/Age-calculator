@@ -10,5 +10,6 @@ $(document).ready(function(){
     $('.venus-years').text(ageCalculator.yearsOnVenus(ageInput));
     $('.mars-years').text(ageCalculator.yearsOnMars(ageInput));
     $('.jupiter-years').text(ageCalculator.yearsOnJupiter(ageInput));
+    $('.life-expectancy').text(ageCalculator.lifeExpectancy(ageinput));
   });
 });

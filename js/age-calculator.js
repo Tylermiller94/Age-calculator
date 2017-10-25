@@ -14,6 +14,12 @@ export class AgeCalculator {
     return this.ageSeconds(difference);
   }
 
+  lifeExpectancy(age, lifeExpectancy)
+    return gender - age;
+  //on click funtion to associate values with gender
+  //funtion to take life expectancy age and subtract current age
+  //return difference
+
   yearsOnMercury(age){
     return age * 4;
     // let earthDays = 365 * age;
@@ -35,6 +41,20 @@ export class AgeCalculator {
     return age * 12;
   }
 }
+
+
+ //
+ // if male
+ //  return age + 0
+ //  else {
+ //    return age + 5
+ //  }
+
+
+
+// // interface .js with a button click function
+//   let gender = $('name=race').val
+
 
 
 
