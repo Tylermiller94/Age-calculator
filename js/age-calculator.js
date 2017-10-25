@@ -14,9 +14,9 @@ export class AgeCalculator {
     return this.ageSeconds(difference);
   }
 
-  lifeExpectancy(age, lifeExpectancy)
-    return gender - age;
-  //on click funtion to associate values with gender
+  // lifeExpectancy(age, lifeExpectancy)
+  //   return gender - age;
+  // //on click funtion to associate values with gender
   //funtion to take life expectancy age and subtract current age
   //return difference
 
