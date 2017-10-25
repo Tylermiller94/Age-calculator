@@ -1,4 +1,4 @@
-class AgeCalculator {
+export class AgeCalculator {
   constructor(age){
     this.age = age
   }
@@ -15,8 +15,9 @@ class AgeCalculator {
   }
 
   yearsOnMercury(age){
-    let earthDays = 365 * age;
-    return parseInt(earthDays / 88);
+    return age * 4;
+    // let earthDays = 365 * age;
+    // return parseInt(earthDays / 88);
   }
 
   yearsOnVenus(age){
@@ -25,13 +26,18 @@ class AgeCalculator {
   }
 
   yearsOnMars(age){
-    let earthDays = 365 * age;
-    return parseInt(earthDays / 686)
+    return age * 2;
+    // let earthDays = 365 * age;
+    // return parseInt(earthDays / 686)
+  }
+
+  yearsOnJupiter(age){
+    return age * 12;
   }
 }
 
 
 
-//
-// for testing jasmine
-exports.ageModule = AgeCalculator;
+// //
+// // for testing jasmine
+// exports.ageModule = AgeCalculator;
